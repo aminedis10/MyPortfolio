@@ -12,15 +12,15 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>React</li>
-        <li>next</li>
+        <li>Next</li>
         <li>JavaScript</li>
-        <li>typescript</li>
-        <li>react native</li>
-        <li>HTML & css</li>
-        <li>tailwind css</li>
-        <li>python</li>
-        <li>machine learing</li>
-        <li>deep learning</li>
+        <li>TypeScript</li>
+        <li>React Native</li>
+        <li>HTML & CSS</li>
+        <li>Tailwind CSS</li>
+        <li>Python</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
       </ul>
     ),
   },
@@ -29,9 +29,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>bachelor's degree in Computer Science </li>
-        <li>Fullstack js bootcamp </li>
-        <li>deep learning bootcamp</li>
+        <li>Bachelor&apos;s degree in Computer Science</li>
+        <li>Fullstack JS Bootcamp</li>
+        <li>Deep Learning Bootcamp</li>
       </ul>
     ),
   },
@@ -40,9 +40,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>ccna routing switching</li>
-        <li>Fullstack js </li>
-        <li>deep learning </li>
+        <li>CCNA Routing Switching</li>
+        <li>Fullstack JS</li>
+        <li>Deep Learning</li>
       </ul>
     ),
   },
@@ -61,7 +61,12 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image
+          src="/images/about-image.png"
+          width={500}
+          height={500}
+          alt="About me"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
@@ -79,22 +84,19 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {" "}
-              Skills{" "}
+              Skills
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              {" "}
-              Education{" "}
+              Education
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              {" "}
-              Certifications{" "}
+              Certifications
             </TabButton>
           </div>
           <div className="mt-8">
