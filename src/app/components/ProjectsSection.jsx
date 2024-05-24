@@ -7,8 +7,9 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Home Rentals Application",
+    description:
+      "Full Stack Home Rentals application featuring user authentication, property listing creation, dynamic photo management, booking system, category-based property feed, keyword search, wishlist functionality, MongoDB photo storage, Redux state management",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,8 +17,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "MERN E-Commerce Store",
+    description:
+      "Built a fully functional e-commerce store using the MERN stack (MongoDB, Express.js, React.js, Node.js) to provide a seamless shopping experience,Features: User Authentication & Authorization, Product Management, Shopping Cart, Order Processing, User Profiles, Admin Dashboard, Search & Filtering, Responsive Design, Notifications.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -25,8 +27,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Social Media Platform",
+    description:
+      "Developed a social media application using the MERN stack (MongoDB, Express.js, React.js, Node.js) and integrated real-time Chat with Socket.io, Features: authentication & authorization with JWT, post creation and deletion, like/unlike posts, commenting, follow/unfollow users,dark/light mode, full responsiveness, chat with image support, seen/unseen message status, notification sounds,",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -34,8 +37,9 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Weather App",
+    description:
+      "Built a weather application using React Native, providing users with real-time weather updates and forecasts. This project encompasses a comprehensive set of functionalities, allowing users to access weather information for various locations and view detailed forecasts",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -43,19 +47,21 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Food Delivery App",
+    description:
+      "Built a food delivery application using React Native and sanity.io. Leveraging the power of React Native Expo, sanity.io, TailwindCss, React Navigation, and various other features",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "AI VOICE ASSISTANT",
+    description:
+      "Developed an advanced AI Voice Assistant using React Native, integrated with ChatGPT for natural language understanding and DALL-E for image generation. This fully functional assistant can convert voice to text and text to speech",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },

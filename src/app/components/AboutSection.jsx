@@ -11,10 +11,16 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
         <li>React</li>
+        <li>next</li>
+        <li>JavaScript</li>
+        <li>typescript</li>
+        <li>react native</li>
+        <li>HTML & css</li>
+        <li>tailwind css</li>
+        <li>python</li>
+        <li>machine learing</li>
+        <li>deep learning</li>
       </ul>
     ),
   },
@@ -23,8 +29,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>bachelor's degree in Computer Science </li>
+        <li>Fullstack js bootcamp </li>
+        <li>deep learning bootcamp</li>
       </ul>
     ),
   },
@@ -33,8 +40,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>ccna routing switching</li>
+        <li>Fullstack js </li>
+        <li>deep learning </li>
       </ul>
     ),
   },
@@ -59,10 +67,12 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            working with JavaScript, TypeScript, React, Redux, Node.js, Express,
+            React Native, HTML, CSS, and Git. Additionally, I have a keen
+            interest in Python and machine learning, including deep learning
+            techniques. I am a quick learner and I am always looking to expand
+            my knowledge and skill set. As a team player, I am excited to
+            collaborate with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

@@ -30,7 +30,9 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <span className="text-[#d8d2d2] hover:text-[#FFA500] font-bold italic">
+            DIBES AMINE
+          </span>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
